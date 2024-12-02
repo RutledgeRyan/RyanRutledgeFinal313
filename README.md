@@ -30,7 +30,7 @@ This will setup our API on Localhost:/5000
 
 Now we will need to navigate back to the base folder of our project:
 
-cd ..
+Create a New Terminal, leaving the API Terminal Open and In Use.
 
 Now that we are back to the main page, we can begin with our startup and launch the homepage:
 
