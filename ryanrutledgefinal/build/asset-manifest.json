@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f5836415.css",
+    "main.js": "/static/js/main.bd84d72d.js",
+    "static/media/RyanRutledgePic1.jpg": "/static/media/RyanRutledgePic1.d59abccf125ccb98de72.jpg",
+    "index.html": "/index.html",
+    "main.f5836415.css.map": "/static/css/main.f5836415.css.map",
+    "main.bd84d72d.js.map": "/static/js/main.bd84d72d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5836415.css",
+    "static/js/main.bd84d72d.js"
+  ]
+}

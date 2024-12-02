@@ -1,0 +1,111 @@
+
+
+body {
+  background-color: black;
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the App takes full height */
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(82, 255, 66);
+  height: 200px;
+}
+
+nav {
+  background-color: black;
+  overflow: hidden;
+}
+
+nav a{
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+
+}
+
+nav a :hover{
+  color: aqua;
+}
+
+nav ul{
+  list-style-type: none;
+}
+.First_Container {
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.First_Container h2 {
+  color: black;
+  background-color: white;
+  border: solid gray 2px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px; /* Add padding for better spacing */
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+.First_Container ul {
+   /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.First_Container li {
+  margin-bottom: 10px; /* Add space between list items */
+  text-align: left; /* Align text to the left if desired */
+}
+
+.Ryan_Credentials, .Image_Container, .Ryan_Skills {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+.Image_Container {
+  
+  text-align: center;
+  color: goldenrod;
+  background-repeat: no-repeat;
+  background-image: url('../public/images/RyanRutledgePic1.jpg'); /* Correct syntax */
+  background-size:contain; /* Optional: makes the image cover the container */
+  background-position: center; /* Optional: centers the image */
+  height: 300px; /* Set a height for the container */
+}
+
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 20px; /* Add padding for better spacing */
+  text-align: center;
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+footer a {
+  text-decoration: none;
+  color: greenyellow;
+}
